@@ -24,8 +24,7 @@
         "sebastian/phpcpd": "*",
         "mayflower/php-codebrowser": "~1.1",
         "fzaninotto/faker": "^1.6@dev",
-        "php-amqplib/php-amqplib": "~2.4",
-        "ext-gearman": "*"
+        "php-amqplib/php-amqplib": "~2.4"
     },
     "autoload": {
         "psr-4": { "WP\\RemoteEventDispatcher\\": "" }
