@@ -61,16 +61,10 @@ $channel = $connection->channel();
 // Configure AmqpHandler
 $handler = new \WP\RemoteEventDispatcher\Handler\Amqp\AmqpHandler($channel, $queueName);
 
-// Setup EventStrategyRegistry
-$eventStrategyRegistry = new \WP\RemoteEventDispatcher\EventStrategy\Registry\EventStrategyRegistry();
-$eventStrategyRegistry->setEventStrategy('printHalloEvent', new \WP\RemoteEventDispatcher\EventStrategy\PrintTest\PrintTestEventStrategy('Hallo'));
-$eventStrategyRegistry->setEventStrategy('printTestEvent', new \WP\RemoteEventDispatcher\EventStrategy\PrintTest\PrintTestEventStrategy('Test'));
+// Setup your custom EventStrategy
+$eventStrategy = new YourCustomEventStrategy();
 
 // Setup RemoteEventListener with AmqpHandler
-$remoteEventListener = new \WP\RemoteEventDispatcher\EventListener\RemoteEventListener($handler, $eventStrategyRegistry);
+$remoteEventListener = new \WP\RemoteEventDispatcher\EventListener\RemoteEventListener($handler, $eventStrategy);
 $remoteEventListener->listen();
 ```
-
-## Example
-
-Implementation example is available under Example\RabbitMQ\*
