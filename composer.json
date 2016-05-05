@@ -1,6 +1,8 @@
 {
     "name": "wildpascal/remote-event-dispatcher",
-    "description": "Remote event dispatcher",
+    "description": "RemoteEventDispatcher for communicating between multiple systems.",
+    "homepage": "https://github.com/wildpascal/remote-event-dispatcher",
+    "license": "MIT",
     "authors": [
         {
             "name": "Pascal Wild",
@@ -11,19 +13,10 @@
         "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib"
     },
     "require": {
-        "php": ">=5.5.0",
-        "symfony/event-dispatcher": "*"
+        "php": ">=5.5.0"
     },
     "require-dev": {
         "phpunit/phpunit": "4.7.*",
-        "escapestudios/symfony2-coding-standard": "~2.0",
-        "squizlabs/php_codesniffer": "2.*",
-        "phing/phing": "2.*",
-        "phpmd/phpmd": "@stable",
-        "phploc/phploc": "*",
-        "sebastian/phpcpd": "*",
-        "mayflower/php-codebrowser": "~1.1",
-        "fzaninotto/faker": "^1.6@dev",
         "php-amqplib/php-amqplib": "~2.4"
     },
     "autoload": {
