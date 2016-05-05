@@ -1,5 +1,7 @@
 # Remote Event Dispatcher
 
+[![Build Status](https://travis-ci.org/wildpascal/remote-event-dispatcher.svg?branch=master)](https://travis-ci.org/wildpascal/remote-event-dispatcher) [![Total Downloads](https://poser.pugx.org/friendsofsymfony/user-bundle/downloads.svg)](https://packagist.org/packages/friendsofsymfony/user-bundle) [![Latest Stable Version](https://poser.pugx.org/friendsofsymfony/user-bundle/v/stable.svg)](https://packagist.org/packages/friendsofsymfony/user-bundle)
+
 RemoteEventDispatcher for communicating between multiple systems.
 
 ## Handler
