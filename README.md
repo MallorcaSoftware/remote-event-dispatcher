@@ -74,3 +74,9 @@ $remoteEventListener->listen();
 ## Example
 
 Implementation example is available under Example\RabbitMQ\*
+
+## License
+
+This bundle is under the MIT license. See the complete license in the bundle:
+
+    Resources/meta/LICENSE
