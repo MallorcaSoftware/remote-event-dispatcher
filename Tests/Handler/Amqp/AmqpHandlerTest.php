@@ -23,20 +23,6 @@ class AmqpHandlerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @test
-     */
-    public function shouldPublishAmqpMessage()
-    {
-        $exchange = $this->buildAMQPExchange();
-        $exchange->expects($this->once())
-            ->method('setName')
-            ->with('testChannel');
-        $amqpHandler = new AmqpHandler($exchange, 'testChannel');
-
-        //$amqpHandler->handle($this->buildEvent());
-    }
-
-    /**
      * @return \PHPUnit_Framework_MockObject_MockObject|AMQPExchange
      */
     private function buildAMQPExchange()

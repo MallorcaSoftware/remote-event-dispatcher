@@ -1,5 +1,7 @@
 # Remote Event Dispatcher
 
+[![Build Status](https://travis-ci.org/wildpascal/remote-event-dispatcher.svg?branch=master)](https://travis-ci.org/wildpascal/remote-event-dispatcher) [![Total Downloads](https://poser.pugx.org/wildpascal/remote-event-dispatcher/downloads.svg)](https://packagist.org/packages/wildpascal/remote-event-dispatcher) [![Latest Stable Version](https://poser.pugx.org/wildpascal/remote-event-dispatcher/v/stable.svg)](https://packagist.org/packages/wildpascal/remote-event-dispatcher)
+
 RemoteEventDispatcher for communicating between multiple systems.
 
 ## Handler
