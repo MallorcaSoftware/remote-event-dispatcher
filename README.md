@@ -4,6 +4,14 @@
 
 RemoteEventDispatcher for communicating between multiple systems.
 
+## Installation ##
+
+Require the bundle and its dependencies with composer:
+
+```bash
+$ composer require wildpascal/remote-event-dispatcher
+```
+
 ## Handler
 Transport for Events.
 Possible Handlers:
