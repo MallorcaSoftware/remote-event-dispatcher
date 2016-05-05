@@ -68,3 +68,9 @@ $eventStrategy = new YourCustomEventStrategy();
 $remoteEventListener = new \WP\RemoteEventDispatcher\EventListener\RemoteEventListener($handler, $eventStrategy);
 $remoteEventListener->listen();
 ```
+
+## License
+
+This bundle is under the MIT license. See the complete license in the bundle:
+
+    Resources/meta/LICENSE
