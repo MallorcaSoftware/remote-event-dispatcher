@@ -22,7 +22,7 @@ class RemoteEventDispatcherTest extends \PHPUnit_Framework_TestCase
         $remoteEventDispatcher = new RemoteEventDispatcher($handler);
 
         $handler->expects($this->once())
-            ->method('handle')
+            ->method('produce')
             ->with($event)
             ->willReturn($event);
 
